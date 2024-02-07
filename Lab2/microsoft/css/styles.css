@@ -1,0 +1,217 @@
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1650px;
+}
+
+header {
+    height: 55px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.left-header {
+    float: left;
+    position: relative;
+    left: 142px;
+}
+
+.logo-ref {
+    float: left;
+    line-height: 3.9;
+}
+
+.logo-img {
+    width: 108px;
+}
+
+.main-nav {
+    float: right;
+    margin-left: 9px;
+    left: 5px;
+}
+
+.head-link {
+    color: #262626;
+    font-size: 13px;
+    line-height: 4.3;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.head-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #262626;
+    text-decoration-thickness: 2px;
+}
+
+.right-header {
+    float: right;
+}
+
+.right-header {
+    position: relative;
+    bottom: 3px;
+    left: 74px;
+}
+
+.right-header a {
+    margin-left: 25px;
+}
+
+.search {
+    text-decoration: none;
+}
+
+.search span:hover {
+    text-decoration: underline;
+    text-decoration-color: #262626;
+    text-decoration-thickness: 2px;
+}
+
+.login {
+    text-decoration: none;
+}
+
+#search {
+    position: relative;
+    bottom: 1px;
+    right: 4.5px;
+}
+
+.search-logo {
+    position: relative;
+    top: 7px;
+}
+
+#login {
+    position: relative;
+    bottom: 1px;
+    right: 1.5px;
+}
+
+.user-logo {
+    position: relative;
+    top: 12px;
+}
+
+#search-logo {
+    position: relative;
+    top: 7px;
+}
+
+.main-img {
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+}
+
+.main-img img:hover {
+    cursor: pointer;
+}
+
+.main-img img {
+    width: 1854px;
+}
+
+.text-block {
+    position: relative;
+    bottom: 442px;
+    left: 180px;
+    width: 550px;
+    line-height: 1.22;
+    color: white;
+}
+
+.text-block:hover {
+    cursor: pointer;
+}
+
+.text-block h2 {
+    font-size: 2.3125rem;
+    font-weight: 600;
+}
+
+.text-block div {
+    font-size: 1rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 241px;
+    margin-top: 13px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #005a9e;
+}
+
+.news {
+    position: relative;
+    bottom: 200px;
+    left: 132px;
+    max-height: 250px;
+}
+
+article {
+    width: 377px;
+    display: inline-block;
+    margin-right: 24.5px;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+article img {
+    width: 382px;
+    height: 214px;
+}
+
+article h2 {
+    position: relative;
+    bottom: 12px;
+    font-size: 1.8125rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+article div {
+    position: relative;
+    bottom: 20px;
+    line-height: 1.5;
+}
+
+article a {
+    position: relative;
+    top: 5px;
+    color: #0067b8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.third-article {
+    position: relative;
+    bottom: 48px;
+}
+
+.fourth-article {
+    position: relative;
+    bottom: 24px;
+}
