@@ -1,0 +1,23 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+	flex: 0 0 33.33%;
+	max-width: 33.33%;
+	box-sizing: border-box;
+}
+
+.description {
+    hyphens: auto;
+	max-width: 250px;
+}
+
+.product-img {
+    width: auto; 
+    height: 250px;
+    margin-bottom: 10px; 
+}
+
+

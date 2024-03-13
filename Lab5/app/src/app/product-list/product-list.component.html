@@ -1,0 +1,28 @@
+<h2>KCAS</h2>
+
+<div class="products">
+    <div class="item" *ngFor="let product of products">
+        <h3>
+            <a [title]="product.name + ' details'">
+                {{ product.name }}
+            </a>
+        </h3>
+
+        <p *ngIf="product.description" class="description">
+            {{ product.description }}
+        </p>
+
+        <div>
+        <img class="product-img" [src]="product.image">
+        </div>
+
+        <button type="button" (click)="share(product.link)">
+            Share
+        </button>
+        
+        <app-product-alerts
+        [product]="product">
+    </app-product-alerts>
+
+    </div>
+</div>
